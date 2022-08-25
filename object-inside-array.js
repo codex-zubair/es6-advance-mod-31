@@ -35,3 +35,31 @@ console.log(cow.black);
 console.log(cow.red);
 console.log(cow.cowMilk.weight);
 
+// Object also work line an array...
+
+
+const cow2 = [
+
+
+    {
+        tail: 1,
+        eyes: 2,
+        nose: 1,
+    },
+
+
+    {
+        dailyMilk: '5LT',
+        weight: "20kg",
+    }
+
+
+
+
+];
+
+// accessing array of object.
+console.log(cow2[0]);
+console.log(cow2[0].eyes);
+console.log(cow2[1]);
+console.log(cow2[1].dailyMilk);
