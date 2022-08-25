@@ -14,6 +14,6 @@ console.log(value);
 
 
 // Find Take the first True Value...
-// if zero index value are true than zero index will be stop point...
+// if zero index value are true than zero index will be stop point..
 const firstTrueValue = arr.find(item => item > 43);
 console.log(firstTrueValue);
